@@ -9,7 +9,6 @@ class Person {
         int age;
     public:
         Person() {}
-
         const std::string &getName() const {
             return name;
         }
@@ -38,7 +37,7 @@ class Person {
 
 int main() {
 
-    Person jecka("Evgeny", "Kost");
+    Person je("Evgeny", "Kost");
     std::cout << jecka.getSirName();
     return 0;
 }
